@@ -2,8 +2,6 @@
 
 > 本文根据原文整理为 Markdown。涉及内部人员、组织、系统和资料的信息已作匿名化处理；部分含内部信息的配图已模糊化，演示视频未收录。
 
-为什么说 Common Agent + Skills 是“全员提效”的有效路径
-
 # **SaaS又死了 -- Claude一个插件吓哭华尔街，软件公司集体暴跌，2万亿元一日蒸发**
 
 - https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills
@@ -322,19 +320,19 @@ Skill 的设计架构，几乎是人类交接大礼包的数字版本：
 
 | Agents | 是否需要下载 | 是否需要付费 | 是否有图形界面 | 推荐指数 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| Claude Code CLI | 是 -- 找 | 公司统一支付费用 | 否 | 5 |  |
-| Codex CLI | 是 -- 找 | 公司统一支付费用 | 否 | 4 |  |
-| Codex Mac App | 是 -- 下载地址： https://openai.com/zh-Hans-CN/codex/get-started/ ，且找 | 公司统一支付费用 | 是 | 4 | - 非开发者，Mac OS 用户推荐 |
+| Claude Code CLI | 是 | 依组织采购政策 | 否 | 5 |  |
+| Codex CLI | 是 | 依组织采购政策 | 否 | 4 |  |
+| Codex Mac App | 是 -- [下载地址](https://openai.com/zh-Hans-CN/codex/get-started/) | 依组织采购政策 | 是 | 4 | 非开发者、Mac 用户可考虑 |
 | Manus | 否 -- 登陆注册：https://manus.im/app | 非Pro版本每天有固定额度 | 是 | 3 | - 本地文件需要通过上传、下载操作 - 不能连接处理公司内部业务，适用个人 - 模型效果不保证 |
 | Trae | 是 -- 下载地址：https://www.trae.ai/ | 非Pro版本每天有固定额度 | 是 | 3 | - 模型效果不保证 |
 
-> 如果以上都不满足，你再等等 正在加紧制作 Claude Code 桌面版本
+> 原文提到组织内正在制作 Claude Code 桌面版本，此版本不保留内部进度信息。
 
 ### 一切从学习如何使用Skills 开始
 
 - Github 上有超过10万个技能，覆盖了日常办公领域的各个方面
 
-- 组织内部的 Skills 平台
+- 组织内部的 Skills 平台（入口信息已移除）
 
 > - 你们肯定希望可以一键安装skills，请耐心等待【Skills 一键安装】 -- 一键安装已经支持
 > - 你们肯定希望可以快速找到你想要的skills，请耐心等待【Skills 检索】
@@ -359,15 +357,15 @@ Skill 的设计架构，几乎是人类交接大礼包的数字版本：
 
 - 将你日常工作中高频的流程、工作方式、知识整理成档，然后使用skill-creator构建
 
-- 积极分享，为组织贡献Skills 到
+- 积极分享，为组织贡献 Skills。
 
-> 示例中所用技能均可从此处下载：
-> - 技能创作：skills/skill-creator
-> - 法律合规咨询：skills/anthropics/knowledge-work-plugins
-> - 头脑风暴：skills/superpowers-brainstorm
-> - 视频制作：skills/remotion
-> - 数据分析：skills/excel-analysis
-> - 图表展示：skills/antvis/Infographic
+> 原文中的内部技能平台链接已移除。技能名称保留，便于在公开技能库中检索。
+> - 技能创作：skill-creator
+> - 法律合规咨询：knowledge-work-plugins
+> - 头脑风暴：superpowers-brainstorm
+> - 视频制作：remotion
+> - 数据分析：excel-analysis
+> - 图表展示：Infographic
 
 # 结尾
 
